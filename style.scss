@@ -1,0 +1,14 @@
+$varname:green;
+
+div{
+    color:blue;
+    p{
+        font-size: 8px;
+    }
+    font: {
+        size: 30 px;       
+    }
+    &:hover{
+        background-color: $varname;
+    }
+}
